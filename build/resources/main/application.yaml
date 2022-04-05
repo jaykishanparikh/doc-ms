@@ -1,0 +1,19 @@
+camunda.bpm:
+  admin-user:
+    id: demo
+    password: demo
+    firstName: Demo
+  filter:
+    create: All tasks
+
+api:
+  basepath:
+    uri: /api/app/document
+
+spring:
+  application:
+    name: api-app-document
+
+document:
+  index: CONTENTS
+  headings: COPYRIGHT AND INTELLECTUAL PROPERTY,COOLING OFF PERIOD,NOTICE THAT THE CONTRACT IS ENDED,PARTICULARS OF CONTRACT
